@@ -2,18 +2,29 @@
 
 <head>
   <title>Personal Website</title>
+  <style media="screen">
+    h1 {
+      background-color: white;
+      font-family: sans-serif;
+      display: inline-flex;
+    }
+    a {
+      font-family: sans-serif;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <table cellpadding="10" cellpadding="0">
   <tbody>
     <tr valign="TOP">
       <td aligh="LEFT" valign="TOP" width="151">
-        <img src="g9RrxyNInDM.jpg" width="250" height="300" usemap="#mymap">
+        <img src="images/g9RrxyNInDM.jpg" class="photo" width="250" height="300" usemap="#mymap">
         <map name="mymap">
           <area shape="rect" coords="0,0,250,300" href="https://c.tenor.com/giB0jG3Ofu4AAAAM/cat-dancing-led-light-rainbow.gif" target="_blank" alt="">
         </map>
         <p>
           <center><a href="#CI">
-              <img src="email.jpg" width="50" height="50">
+              <img src="images/email.jpg" class="photo" width="50" height="50">
           </a></center>
         </p>
       </td>
@@ -27,7 +38,7 @@
         <body>
           <center>
 
-            <table border="2" height="150" width="350">
+            <table class="whitefont" border="2" height="150" width="350">
               <h2>
                 <a href="portfolio.html"> Portfolio </a>
               </h2>
@@ -50,6 +61,7 @@
                 </td>
               </tr>
           </center>
+          <img src="images/kisspng-ratchet-clank-going-commando-ratchet-clank-i-ratchet-clank-5ac09d27f38a11.4327517515225725839976.png" class="right">
 </table>
 </body>
 </td>
@@ -59,35 +71,37 @@
 <hr />
 
 <body style="background-color:lemonchiffon;">
-
-  <h1> Biography: </h1>
+  <div class="biography">
   <dl>
-    <dt> Place of Birth:</dt>
+    <h1> Biography </h1>
+    <br>
+    <dt class="font color"> Place of Birth:</dt>
     <dd><b><ins>- Khabarovsk, Russia</ins></b></dd>
-    <dt> Age: </dt>
+    <dt class="font color"> Age: </dt>
     <dd><b><ins>- 18 </ins></b></dd>
-    <dt> Passions of Life:</dt>
+    <dt class="font color"> Passions of Life:</dt>
     <dd><b><ins>- To leave a mark in the Gaming Industry</ins></b></dd>
     <dd><b><ins>- To be a loving father to my kids</ins></b></dd>
-    <dt>Hobbies:</dt>
+    <dt class="font color">Hobbies:</dt>
     <dd><b><ins>- Playing on the Saxophone</ins></b></dd>
     <dd><b><ins>- Collecting rare copies of computer games</ins></b></dd>
-    <p> My favourite quote is made by <em>Mark Twain</em>: </p>
+    <p class="font color"> My favourite quote is made by Mark Twain: </p>
     <blockquote cite="">
       All you need in life is ignorance and confidence, and then success is sure
     </blockquote>
-    <dt>My favourite game:</dt>
+    <dt class="font color">My favourite game:</dt>
     <dd><b><ins>- Bully by Rockstar Games</ins></b></dd>
   </dl>
-  <hr />
-
-  <h1 id="CI">Contact Information: </h1>
-
-  <a href="https://vk.com/id234706884" target="_blank">VK</a>
+  </div>
+  <div class="contact">
+  <dl>
+  <h1 id="CI"> Contact Information </h1>
   <br>
-  <a href="https://www.youtube.com/channel/UCL3qQ_IHgYVlgLWk3JfMLjA" target="_blank">YouTube Channel</a>
+  <dt><a href="https://vk.com/id234706884" id="squiggle" target="_blank">VK</a></dt>
   <br>
-  <a href="https://github.com/qmet1324" target="_blank">GitHub</a>
+  <dt><a href="https://www.youtube.com/channel/UCL3qQ_IHgYVlgLWk3JfMLjA" id="squiggle" target="_blank">YouTube Channel</a></dt>
+  <br>
+  <dt><a href="https://github.com/qmet1324" id="squiggle" target="_blank">GitHub</a></dt>
   <p>
     CN Mail:
   <address>
@@ -102,6 +116,8 @@
     <br>
     <a href="mailto:misha.melnik@student.sl.on.ca">misha.melnik@student.sl.on.ca</a>
   </p>
+  </dl>
+  </div>
 
 
 </body>

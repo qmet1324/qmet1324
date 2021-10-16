@@ -1,0 +1,49 @@
+hr {
+  background-color: lightgrey;
+  width: 50%;
+  height:3px;
+}
+pre {
+  font-family: "Papyrus", fantasy;
+}
+h3 {
+  background-color: lightblue;
+}
+.photo {
+  border-style: solid;
+  border-radius: 8px;
+}
+#squiggle {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+.font {
+  font-family: sans-serif;
+}
+.color {
+  background-color: lightgrey;
+  background-size: contain;
+  display: inline-flex;
+}
+.whitefont {
+  background-color: white;
+}
+.biography {
+  border: 5px outset lightgrey;
+  background-color: linen;
+  display: inline-flex;
+  float:left;
+}
+.contact {
+  float: right;
+  border: 5px outset lightgrey;
+  background-color: linen;
+  display: inline-flex;
+  padding: 19px 315px;
+}
+.right {
+  position: absolute;
+  right: 0px;
+  height: 400px;
+  weight: 400px;
+}
