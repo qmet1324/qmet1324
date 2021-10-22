@@ -47,9 +47,9 @@ figure {
 }
 .right {
   position: absolute;
-  right: 50px;
-  height: 550px;
-  weight: 550px;
+  right: 75px;
+  height: 600px;
+  weight: 600px;
 }
 .tablesize {
   width: 50%;
