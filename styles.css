@@ -1,13 +1,16 @@
 hr {
-  background-color: lightgrey;
+  background-color: yellowgreen;
   width: 50%;
-  height:3px;
+  height:5px;
 }
 pre {
   font-family: "Papyrus", fantasy;
 }
 h3 {
   background-color: lightblue;
+}
+dl {
+  font-size: 20px;
 }
 .photo {
   border-style: solid;
@@ -31,19 +34,31 @@ h3 {
 .biography {
   border: 5px outset lightgrey;
   background-color: linen;
-  display: inline-flex;
-  float:left;
 }
 .contact {
-  float: right;
   border: 5px outset lightgrey;
   background-color: linen;
-  display: inline-flex;
-  padding: 19px 315px;
+  text-align: right;
 }
 .right {
   position: absolute;
-  right: 0px;
-  height: 400px;
-  weight: 400px;
+  right: 50px;
+  height: 500px;
+  weight: 500px;
+}
+.tablesize {
+  width: 220%;
+  border-collapse: collapse;
+}
+.projectlist {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.left {
+  position: absolute;
+  left: 0px;
+  height: 601px;
+  weight: 300px;
 }

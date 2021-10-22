@@ -8,8 +8,33 @@
       font-family: sans-serif;
       display: inline-flex;
     }
-    a {
+    th {
+      background-color: yellowgreen;
+      color: yellow;
+      font-size: 20px;
       font-family: sans-serif;
+    }
+    h2 {
+      font-family: sans-serif;
+      font-size: 25px;
+      background-color: white;
+      text-align: center;
+      border-left: 6px solid lightblue;
+    }
+    a:link, a:visited {
+      background-color: white;
+      color: black;
+      border: 2px solid green;
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 25px;
+
+    }
+    a:hover, a:active {
+      background-color: yellowgreen;
+      color: white;
     }
   </style>
   <link rel="stylesheet" href="styles.css">
@@ -33,35 +58,32 @@
           Mikhail Melnik
           <br />
           Student of St. Lawrence College
+          <br>
         </h2>
-
         <body>
           <center>
-
-            <table class="whitefont" border="2" height="150" width="350">
-              <h2>
-                <a href="portfolio.html"> Portfolio </a>
-              </h2>
+            <a href="portfolio.html"><b> Portfolio </b></a>
+            <br><br>
+            <table class="tablesize" border="2" height="150" width="350">
               <tr>
                 <th colspan="2"> Projects </th>
                 <th> Release Date </th>
               </tr>
               <tr>
-                <td colspan="2">
+                <td colspan="2" class ="projectlist">
                   <center>JumpMan </center>
                 </td>
-                <td>
+                <td class ="projectlist">
                   <center>2021/09/24</center>
                 </td>
               </tr>
               <tr>
-                <td colspan="4">
+                <td colspan="4" class ="projectlist">
                   <center> To be continued ... </center>
                   <!-- to add projects in advance-->
                 </td>
               </tr>
           </center>
-          <img src="images/kisspng-ratchet-clank-going-commando-ratchet-clank-i-ratchet-clank-5ac09d27f38a11.4327517515225725839976.png" class="right">
 </table>
 </body>
 </td>
@@ -73,6 +95,7 @@
 <body style="background-color:lemonchiffon;">
   <div class="biography">
   <dl>
+    <img src="images/kisspng-ratchet-clank-going-commando-ratchet-clank-i-ratchet-clank-5ac09d27f38a11.4327517515225725839976.png" class="right">
     <h1> Biography </h1>
     <br>
     <dt class="font color"> Place of Birth:</dt>
@@ -93,8 +116,10 @@
     <dd><b><ins>- Bully by Rockstar Games</ins></b></dd>
   </dl>
   </div>
+  <hr>
   <div class="contact">
   <dl>
+  <img src="images/geralt.png" class="left" >
   <h1 id="CI"> Contact Information </h1>
   <br>
   <dt><a href="https://vk.com/id234706884" id="squiggle" target="_blank">VK</a></dt>
