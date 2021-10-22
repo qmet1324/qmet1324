@@ -12,6 +12,11 @@ h3 {
 dl {
   font-size: 20px;
 }
+figure {
+  border: 5px outset lightgrey;
+  background-color: linen;
+  color:blue;
+}
 .photo {
   border-style: solid;
   border-radius: 8px;
@@ -38,16 +43,16 @@ dl {
 .contact {
   border: 5px outset lightgrey;
   background-color: linen;
-  text-align: right;
+  text-align: center;
 }
 .right {
   position: absolute;
   right: 50px;
-  height: 500px;
-  weight: 500px;
+  height: 550px;
+  weight: 550px;
 }
 .tablesize {
-  width: 220%;
+  width: 50%;
   border-collapse: collapse;
 }
 .projectlist {
@@ -58,7 +63,15 @@ dl {
 }
 .left {
   position: absolute;
-  left: 0px;
+  left: 45px;
   height: 601px;
-  weight: 300px;
+}
+.borderporfolio {
+  border: 5px outset lightgrey;
+  background-color: linen;
+}
+.tb {
+  border: 5px solid blue;
+  border-radius: 12px;
+  padding: 15px;
 }
